@@ -1,0 +1,61 @@
+p{
+  font-size: .9rem;
+}
+.btn{
+  padding: .5rem 1.25rem;
+}
+.page-label{
+  letter-spacing: .15rem;
+}
+/* navbar*/
+.navbar .navbar-nav .nav-item{
+  padding: .2rem 1.5rem;
+}
+/* TOP*/
+.top{
+  padding: 10rem 0 12rem;
+  background-image: url(../images/top.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  filter: opacity(.7);
+}
+.top-header{
+  margin-bottom: 3rem;
+  letter-spacing: .2rem;
+  font-size: 4rem;
+
+}
+.top-text{
+  font-size: 2rem;
+  color:#000000;  
+}
+.top-button{
+  margin-top: 2rem;
+}
+@media (max-width:660px){
+  .top-header{
+    font-size: 2.2rem;
+  }
+  .top-text{
+    font-size:1rem;
+  }
+}
+                        /*wprowadzenie*/
+.introduction-header{
+  padding: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+}
+.introduction-text{
+  margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
