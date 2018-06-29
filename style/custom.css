@@ -51,10 +51,15 @@ p{
   margin-bottom: 5rem;
 }
 
+                          /* Ubezpieczenia*/
+.portfolio .row{
+  height: 100%;
+}
 
-
-
-
+                          /* Formularz*/
+.write-to-us .row{
+  height: 100%;
+}
 
 
 
