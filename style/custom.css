@@ -111,6 +111,18 @@ p{
   color:#999999;
   margin-top: 1rem;  
 }  
-
-
-
+                              /*Footer*/
+.footer-first-col ul li{
+  font-size: .7rem;
+}
+.footer-first-col ul li i{
+  margin-right: .7rem;
+  padding: .34rem;
+}
+@media (max-width:360px){
+  .footer-first-col ul li i{
+  margin-right: .3rem;
+  padding: .34rem;
+  font-size: .5rem;
+}
+}
