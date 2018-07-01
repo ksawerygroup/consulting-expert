@@ -112,6 +112,9 @@ p{
   margin-top: 1rem;  
 }  
                               /*Footer*/
+.footer-text{
+  background-color: #434145;
+}
 .footer-first-col ul li{
   font-size: .7rem;
 }
