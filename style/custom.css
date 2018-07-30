@@ -1,131 +1,169 @@
-p{
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&subset=latin-ext');
+p {
   font-size: .9rem;
   line-height: 1.5rem;
 }
-.btn{
+
+.btn {
   padding: .5rem 1.25rem;
 }
-.page-label{
+
+.page-label {
   letter-spacing: .15rem;
 }
+
 /* navbar*/
-.navbar .navbar-nav .nav-item{
+
+.navbar .navbar-nav .nav-item {
   padding: .2rem 1.5rem;
 }
+
 /* TOP*/
-.top{
+
+.top {
   padding: 10rem 0 12rem;
   background-image: url(../images/top.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   filter: opacity(.7);
 }
-.top-header{
+
+.top-header {
   margin-bottom: 1rem;
   letter-spacing: .2rem;
   font-size: 4rem;
   font-weight: 700;
 }
-.top-name{
+
+.top-name {
   margin-bottom: 3rem;
   letter-spacing: .1rem;
   font-size: 3rem;
   font-weight: 700;
 }
-.top-text{
-  font-size: 2rem;
-  color:#000000;  
+
+.top-text {
+  font-size: 2.6rem;
+  color: #000000;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  padding: 2rem;
 }
-.top-button{
+
+.top-button {
   margin-top: 2rem;
-}
-@media (max-width:660px){
-  .top-header{
-    font-size: 2.2rem;
-  }
-  .top-text{
-    font-size:1rem;
-  }
-  .top-name{
-  margin-bottom: 3rem;
-  letter-spacing: .1rem;
   font-size: 1.5rem;
 }
+
+@media (max-width:660px) {
+  .top-header {
+    font-size: 2.2rem;
+  }
+  .top-text {
+    font-size: 1rem;
+  }
+  .top-name {
+    margin-bottom: 3rem;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+  }
 }
-                        /*wprowadzenie*/
-.introduction{
+
+/*wprowadzenie*/
+
+.introduction {
   margin-top: 3rem;
 }
-.introduction-header{
+
+.introduction-header {
   padding: 2rem;
   margin-bottom: 2rem;
   font-size: 3rem;
   letter-spacing: .2rem;
 }
-.introduction-text{
+
+.introduction-text {
   margin-bottom: 5rem;
 }
-.introduction-info{
-    line-height: 2.3rem;
-  }
-@media (max-width:660px){
-  .introduction-header{
+
+.introduction-info {
+  line-height: 2.3rem;
+}
+
+@media (max-width:660px) {
+  .introduction-header {
     font-size: 2.2rem;
     letter-spacing: .1rem;
   }
-  .introduction-info{
+  .introduction-info {
     font-size: 1.3rem;
     line-height: 1.8rem;
   }
 }
 
-                          /* Ubezpieczenia*/
-.portfolio .row{
+/* Ubezpieczenia*/
+
+.portfolio .row {
   height: 100%;
 }
-.portfolio-header{
+
+.portfolio-header {
   font-size: 3rem;
   margin-bottom: 4rem;
 }
-.portfolio-images{
+
+.portfolio-images {
   margin-bottom: 4rem;
 }
-.portfolio-subheading{
+
+.portfolio-subheading {
   margin-bottom: 5rem;
 }
-@media (max-width:660px){
-  .portfolio-header{
-    font-size:2.2rem;
+
+@media (max-width:660px) {
+  .portfolio-header {
+    font-size: 2.2rem;
   }
 }
-                          /* Formularz*/
-.write-to-us .row{
-  height: 100%;  
+
+/* Formularz*/
+
+.write-to-us .row {
+  height: 100%;
 }
-.write-to-us-header{
+
+.write-to-us-header {
   font-size: 1.45rem;
   margin-bottom: 2.2rem;
 }
-.write-to-us .form-control-label{
+
+.write-to-us .form-control-label {
   font-size: .8rem;
-  color:#999999;
-  margin-top: 1rem;  
-}  
-                              /*Footer*/
-.footer-text{
+  color: #999999;
+  margin-top: 1rem;
+}
+
+/*Footer*/
+
+.footer-text {
   background-color: #434145;
 }
-.footer-first-col ul li{
+
+.footer-first-col ul li {
   font-size: .7rem;
 }
-.footer-first-col ul li i{
+
+.footer-first-col ul li i {
   margin-right: .7rem;
   padding: .34rem;
 }
-@media (max-width:360px){
-  .footer-first-col ul li i{
-  margin-right: .3rem;
-  padding: .34rem;
-  font-size: .5rem;
-}
+
+@media (max-width:360px) {
+  .footer-first-col ul li i {
+    margin-right: .3rem;
+    padding: .34rem;
+    font-size: .5rem;
+  }
 }
