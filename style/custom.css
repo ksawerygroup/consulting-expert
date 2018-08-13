@@ -29,6 +29,12 @@ p {
   filter: opacity(.7);
 }
 
+.header {
+  background-color: rgba(0, 0, 0, .15);
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
 .top-header {
   margin-bottom: 1rem;
   letter-spacing: .2rem;
@@ -148,16 +154,23 @@ p {
 /*Footer*/
 
 .footer-text {
-  background-color: #434145;
+  background-image: url(../images/city-1209105_1920.jpg);
+  background-position: center bottom 30%;
+  background-repeat: no-repeat;
+}
+
+.footer-list {
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .footer-first-col ul li {
-  font-size: .7rem;
+  font-size: .8rem;
 }
 
 .footer-first-col ul li i {
   margin-right: .7rem;
   padding: .34rem;
+
 }
 
 @media (max-width:360px) {
@@ -166,4 +179,14 @@ p {
     padding: .34rem;
     font-size: .5rem;
   }
+}
+
+.copyright p {
+  font-size: .7rem;
+}
+
+.copyright {
+  font-size: .7rem;
+  color: #999;
+  background-color: #333;
 }
