@@ -2,6 +2,7 @@
 :root {
   --font-color-header: #ddd;
   --font-color-top-text: rgb(223, 223, 223);
+  --font-color-h1: #000;
 }
 
 p {
@@ -104,6 +105,7 @@ p {
   margin-bottom: 2rem;
   font-size: 3rem;
   letter-spacing: .2rem;
+  color: var(--font-color-h1);
 }
 
 .introduction-text {
@@ -134,6 +136,7 @@ p {
 .portfolio-header {
   font-size: 3rem;
   margin-bottom: 4rem;
+  color: var(--font-color-h1);
 }
 
 .portfolio-images {
