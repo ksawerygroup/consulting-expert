@@ -7,7 +7,8 @@
   <title>Projekt</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!--  <link rel="stylesheet" href="style/font-awesome.min.css">-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="style/custom.css">
 </head>
 
@@ -16,14 +17,15 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
-       <span class="navbar-toggler-icon"></span>
-     </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="#" class="navbar-brand text-brand">Consulting Expert</a>
       <div class="collapse navbar-collapse" id="navContent">
-        <div class="navbar-nav text-center">
+        <div class="navbar-nav ml-auto text-center">
           <a href="#" class="nav-link nav-item">Start</a>
           <a href="#aboutme" class="nav-link nav-item">O Mnie</a>
           <a href="#ubezpieczenia" class="nav-link nav-item">Ubezpieczenia</a>
-          <a href="#" class="nav-link nav-item">Kontakt</a>
+          <a href="#kontakt" class="nav-link nav-item">Kontakt</a>
         </div>
       </div>
     </div>
@@ -31,11 +33,13 @@
   <!--  Top      -->
 
   <div class="top jumbotron jumbotron-fluid text-white text-center">
-    <div class="container header">
-      <h1 class="text-uppercase text-primary top-header ">consulting expert</h1>
-      <h3 class="text-primary top-name">Izabela Plewniak</h3>
-      <p class="top-text">Odkryj <span class="text-danger"> nową jakość </span>w ubezpieczeniach</p>
-      <a href="#aboutme"> <button class="btn btn-danger text-white top-button">Więcej</button></a>
+    <div class="container rounded header">
+      <h1 class="text-uppercase  top-header ">consulting expert</h1>
+      <h3 class=" top-name">Izabela Plewniak</h3>
+      <p class="top-text">Odkryj <span class="top-text2"> nową jakość </span>w ubezpieczeniach</p>
+      <a href="#aboutme">
+        <button class="btn btn-danger text-white top-button">Więcej</button>
+      </a>
     </div>
   </div>
 
@@ -45,7 +49,9 @@
       Consulting expert
     </h2>
     <div class="container">
-      <h3 class="p-3 mb-4 text-center text-warning introduction-info"> Jestem Expertem w zakresie ubezpieczeń majątkowych i życiowych, możesz być pewien, że zawsze przygotuję dla Ciebie najbardziej korzystną ofertę. Współpracuję z 9 Towarzystwami Ubezpieczeniowymi.</h3>
+      <h3 class="p-3 mb-4 text-center text-warning introduction-info"> Jestem Expertem w zakresie ubezpieczeń
+        majątkowych i życiowych, możesz być pewien, że zawsze przygotuję dla Ciebie
+        najbardziej korzystną ofertę. Współpracuję z 9 Towarzystwami Ubezpieczeniowymi.</h3>
 
       <div class="row">
         <div class="col-md-4 ">
@@ -81,7 +87,7 @@
     <div class="container">
       <div class="row align-items-center justify-content-around">
         <div class=" col-md-3">
-          <img class=" img-fluid portfolio-images " src="images/automobile-1300231_1280.png" alt="obraz samochodu">
+          <img class=" img-fluid portfolio-images " src="https://picsum.photos/500/?random" alt="obraz samochodu">
           <h3 class=" text-uppercase text-center text-success portfolio-subheading ">Samochody</h3>
         </div>
         <div class="col-md-3">
@@ -98,7 +104,7 @@
     </div>
   </section>
   <!-- Formularz   -->
-  <section class="write-to-us">
+  <section class="write-to-us " id="kontakt">
     <div class="container">
       <div class="row align-items-center justify-content-around">
         <div class="col-md-4">
@@ -107,30 +113,31 @@
             <h2 class="text-uppercase mt-2 write-to-us-header">Skontaktuj się z nami</h2>
             <form action="" class="mb-4">
               <label for="name" class="form-control-label">
-               Imię i nazwisko
-               </label>
+                Imię i nazwisko
+              </label>
               <input type="text" id="name" class="form-control">
 
               <label for="email" class="form-control-label">
-               E-mail
-               </label>
+                E-mail
+              </label>
               <input type="email" id="email" class="form-control">
 
               <label for="msg-title" class="form-control-label">
-               Tytuł wiadomości
-               </label>
+                Tytuł wiadomości
+              </label>
               <input type="text" id="msg-title" class="form-control">
 
               <label for="massage" class="form-control-label">
-               Wiadomość
-               </label>
+                Wiadomość
+              </label>
               <textarea id="massage" cols="30" rows="5" class="form-control"></textarea>
               <button class="btn btn-success mt-2">Wyślij wiadomość</button>
             </form>
           </div>
         </div>
         <div class="col-md-8 ">
-          <iframe class="col-12 p-0 mt-5 mx-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.032964318225!2d19.276129851488818!3d49.991991428071955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716941020629b75%3A0x64305d6c798042e8!2sStawowa+147%2C+32-607+Polanka+Wielka!5e0!3m2!1spl!2spl!4v1530387334997" frameborder="0" style="border:0" height="350" allowfullscreen></iframe>
+          <iframe class="col-12 p-0 mt-5 mx-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.032964318225!2d19.276129851488818!3d49.991991428071955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716941020629b75%3A0x64305d6c798042e8!2sStawowa+147%2C+32-607+Polanka+Wielka!5e0!3m2!1spl!2spl!4v1530387334997"
+            frameborder="0" style="border:0" height="350" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -148,7 +155,8 @@
               <i class="far fa-hand-point-right"></i>CONSULTING EXPERT
             </li>
             <li>
-              <i class="fas fa-map-marked-alt"></i> Ul. Stawowa 147 <br>
+              <i class="fas fa-map-marked-alt"></i> Ul. Stawowa 147
+              <br>
               <i class="fas fa-map-marked-alt"></i>32-607 Polanka Wielka
             </li>
             <li>
@@ -158,12 +166,12 @@
               <i class="far fa-clock"></i>Pn. -Pt. 9:00-17:00
             </li>
             <li>
-              <i class="fa fa-envelope" aria-hidden="true"></i>izabela.plewniak@gmail.com
+              <a class="footer-text-a" href="mailto:izabela.plewniak@gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i>  izabela.plewniak@gmail.com</a>
             </li>
           </ul>
         </div>
         <div class="col-4 col-sm-2 footer-second-col">
-          <img class="img-fluid p-1 p-sm-2 p-lg-5" src="images/naklejka.png" alt="logo barterkey">
+          <img class="img-fluid p-1 p-sm-2 p-lg-5 logoBk" src="images/naklejka.png" alt="logo barterkey">
         </div>
       </div>
     </div>
@@ -180,8 +188,10 @@
     </div>
   </section>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
 
