@@ -6,6 +6,10 @@
   --font-color-h1: #000;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 p {
   font-size: .9rem;
   line-height: 1.5rem;
@@ -25,7 +29,7 @@ p {
 }
 
 .text-brand {
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
   letter-spacing: 3px;
 }
 
@@ -40,7 +44,7 @@ p {
 }
 
 .header {
-  background-color: rgba(0, 0, 0, .35);
+  background-color: rgba(0, 0, 0, .65);
   padding-top: 3%;
   padding-bottom: 3%;
 }
@@ -64,9 +68,9 @@ p {
 .top-text {
   font-size: 2.6rem;
   color: var(--font-color-top-text);
-  font-family: 'Dancing Script', cursive;
-  font-weight: 700;
-  letter-spacing: .2rem;
+  /* font-family: 'Dancing Script', cursive; */
+  font-weight: 400;
+  /* letter-spacing: .2rem; */
   padding: 2rem;
 }
 
@@ -80,6 +84,13 @@ p {
 }
 
 @media (max-width:660px) {
+  /* .top {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } */
+
   .top-header {
     font-size: 2.2rem;
   }
@@ -97,7 +108,8 @@ p {
 
 /*wprowadzenie*/
 .introduction {
-  margin-top: 5rem;
+  margin: 5rem 0 10rem 0;
+  overflow: hidden;
 }
 
 .introduction-header {
@@ -108,8 +120,27 @@ p {
   color: var(--font-color-h1);
 }
 
+.art-introduction {
+
+  transform: translateX(100%);
+  transition: 1s;
+}
+
+.art-introduction.active {
+  transform: translateX(0);
+}
+
 .introduction-text {
   margin-bottom: 5rem;
+}
+
+.introduction-text-a {
+  color: #000;
+
+}
+
+.introduction-text-a:hover {
+  text-decoration: none;
 }
 
 .introduction-info {
