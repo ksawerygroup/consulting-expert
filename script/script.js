@@ -26,7 +26,7 @@ $('.navbar-nav a, .top-button').on('click', function () { //pobieramy przycisk a
 
   $('body, html').animate({
     scrollTop: $(goTOSection).offset().top
-  }, 500)
+  }, 700)
 
 })
 
