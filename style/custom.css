@@ -1,3 +1,4 @@
+/* Background pattern from Toptal Subtle Patterns */
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&subset=latin-ext');
 
 :root {
@@ -8,6 +9,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background: url(../images/greyzz.png);
 }
 
 p {
@@ -142,6 +144,16 @@ p {
 
 .introduction-info {
   line-height: 2.3rem;
+}
+
+.insuranceList h3 {
+  display: inline-block;
+  padding: 2%;
+  margin-top: 6%;
+}
+
+.insuranceList h3:nth-last-of-type(1) {
+  margin-top: 1%;
 }
 
 @media (max-width:660px) {

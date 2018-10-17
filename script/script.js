@@ -25,7 +25,7 @@ $('.navbar-nav a, .top-button').on('click', function () { //pobieramy przycisk a
   const goTOSection = '.' + $(this).attr('id'); //przypisanie stałej atrybutu clasy przez element this i dodanie hasha do stringa
 
   $('body, html').animate({
-    scrollTop: $(goTOSection).offset().top
+    scrollTop: $(goTOSection).offset().top - 50
   }, 700)
 
 })
