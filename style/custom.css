@@ -25,6 +25,8 @@ p {
   letter-spacing: .15rem;
 }
 
+
+
 /* navbar*/
 .navbar .navbar-nav .nav-item {
   padding: .2rem 1.5rem;
@@ -33,6 +35,10 @@ p {
 .text-brand {
   /* font-family: 'Dancing Script', cursive; */
   letter-spacing: 3px;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 /* TOP*/
@@ -103,7 +109,7 @@ p {
 
 /*wprowadzenie*/
 .introduction {
-  margin: 5rem 0 10rem 0;
+  margin: 5rem 0 3rem 0;
   overflow: hidden;
 }
 
@@ -125,7 +131,7 @@ p {
 }
 
 .introduction-text {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .introduction-name {
@@ -147,14 +153,14 @@ p {
 }
 
 .insuranceList h3 {
-  display: inline-block;
-  padding: 2%;
-  margin-top: 6%;
+  text-align: center;
+  font-weight: 700;
+  /* display: inline-block; */
+  /* padding: .2%;
+  margin-top: 6%; */
 }
 
-.insuranceList h3:nth-last-of-type(1) {
-  margin-top: 1%;
-}
+
 
 @media (max-width:660px) {
   .introduction-header {
