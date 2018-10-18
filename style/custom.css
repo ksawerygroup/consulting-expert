@@ -36,12 +36,6 @@ p {
   box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
 }
 
-/* .row-flex {
-  display: flex;
-  flex-wrap: wrap;
-  vertical-align: text-bottom;
-} */
-
 /* navbar*/
 .navbar .navbar-nav .nav-item {
   padding: .2rem 1.5rem;
@@ -195,14 +189,11 @@ h2 {
   height: 100%;
 }
 
+
 .portfolio-header {
   font-size: 3rem;
   margin-bottom: 4rem;
   color: var(--font-color-h1);
-}
-
-.portfolio-images {
-  margin-bottom: 4rem;
 }
 
 .portfolio-subheading {
@@ -222,7 +213,7 @@ a.link {
   padding: 1.3% 0%;
 }
 
-.link:hover {}
+
 
 @media (max-width:660px) {
   .portfolio-header {
