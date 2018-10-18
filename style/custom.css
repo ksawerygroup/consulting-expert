@@ -36,6 +36,12 @@ p {
   box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
 }
 
+/* .row-flex {
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: text-bottom;
+} */
+
 /* navbar*/
 .navbar .navbar-nav .nav-item {
   padding: .2rem 1.5rem;
