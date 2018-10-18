@@ -7,7 +7,12 @@
   --font-color-h1: #000;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
+
   font-family: 'Montserrat', sans-serif;
   background: url(../images/greyzz.png);
 }
@@ -25,7 +30,11 @@ p {
   letter-spacing: .15rem;
 }
 
+/* style bootstrap class */
 
+.card:hover {
+  box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
 
 /* navbar*/
 .navbar .navbar-nav .nav-item {
