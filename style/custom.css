@@ -189,6 +189,14 @@ h2 {
   height: 100%;
 }
 
+.portfolio-list {
+  transform: scale(0);
+  transition: 1s ease;
+}
+
+.portfolio-list.active {
+  transform: scale(1);
+}
 
 .portfolio-header {
   font-size: 3rem;
