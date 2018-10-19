@@ -37,24 +37,30 @@ $('.navbar-nav a, .top-button').on('click', function () { //pobieramy przycisk a
 $(document).on('scroll', function () {
   const windowHeight = $(window).height();
   const scrollValue = $(this).scrollTop();
+  const windowWidth = $(window).width();
+  // console.log(windowWidth);
 
   const $art1 = $('.art-introduction');
-  // const $art2 = $('.portfolio-list');
+  const $art2 = $('.portfolio-list');
 
   const art1FromTop = $art1.offset().top; // pobieramy gdzie ten element jest od początku układu
-  // const art2FromTop = $art2.offset().top;
+  const art2FromTop = $art2.offset().top;
 
   const art1Height = $art1.outerHeight(); // outerHeight pobranie wysokości elementu z padingiem i borderem
-  // const art2Height = $art2.outerHeight();
+  const art2Height = $art2.outerHeight();
 
   if (scrollValue > art1FromTop + art1Height - windowHeight) {
     $art1.addClass('active');
   }
-  // if (scrollValue > art2FromTop + art2Height - windowHeight) {
-  //   $art2.addClass('active');
-  // }
-  if (scrollValue < 100) { //jeśli wysokość scrolla jest mniejsza niż 100 px Pamiętaj nie piszemy PX to zabierz klasę active
+  if (scrollValue > art2FromTop + art2Height - windowHeight-70) {
+    $art2.addClass('active');
+  }
+  if (scrollValue < 100 && windowWidth > 860) { //jeśli wysokość scrolla jest mniejsza niż 100 px Pamiętaj nie piszemy PX to zabierz klasę active
     $('.art-introduction').removeClass('active');
-    // $art2.removeClass('active');
+    $art2.removeClass('active');
+  }
+  if(windowWidth<=860){
+    $('.art-introduction').addClass('active');
+    $art2.addClass('active');
   }
 })
