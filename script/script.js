@@ -52,14 +52,14 @@ $(document).on('scroll', function () {
   if (scrollValue > art1FromTop + art1Height - windowHeight) {
     $art1.addClass('active');
   }
-  if (scrollValue > art2FromTop + art2Height - windowHeight-70) {
+  if (scrollValue > art2FromTop + art2Height - windowHeight - 200) {
     $art2.addClass('active');
   }
   if (scrollValue < 100 && windowWidth > 860) { //jeśli wysokość scrolla jest mniejsza niż 100 px Pamiętaj nie piszemy PX to zabierz klasę active
     $('.art-introduction').removeClass('active');
     $art2.removeClass('active');
   }
-  if(windowWidth<=860){
+  if (windowWidth <= 860) {
     $('.art-introduction').addClass('active');
     $art2.addClass('active');
   }
