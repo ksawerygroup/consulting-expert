@@ -38,6 +38,8 @@ p {
 
 .btn-custom {
   border-radius: 50px;
+  border: none;
+  transition: .9s linear;
 }
 
 /* navbar*/
