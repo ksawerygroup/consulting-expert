@@ -41,6 +41,11 @@ p {
   transition: .9s linear;
 }
 
+.btn-insurance-custom {
+  border-radius: 50px;
+  transition: .7s linear;
+}
+
 /* navbar*/
 .navbar .navbar-nav .nav-item {
   padding: .2rem 1.5rem;
