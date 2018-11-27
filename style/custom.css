@@ -1,5 +1,5 @@
 /* Background pattern from Toptal Subtle Patterns */
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&subset=latin-ext');
+/* @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&subset=latin-ext'); */
 
 :root {
   --font-color-header: #ddd;
@@ -12,7 +12,6 @@
 }
 
 body {
-
   font-family: 'Montserrat', sans-serif;
   background: url(../images/gray_jean.png);
 }
@@ -48,7 +47,6 @@ p {
 }
 
 .text-brand {
-  /* font-family: 'Dancing Script', cursive; */
   letter-spacing: 3px;
 }
 
@@ -91,9 +89,7 @@ h2 {
 .top-text {
   font-size: 2.6rem;
   color: var(--font-color-top-text);
-  /* font-family: 'Dancing Script', cursive; */
   font-weight: 400;
-  /* letter-spacing: .2rem; */
   padding: 2rem;
 }
 
@@ -155,7 +151,7 @@ h2 {
 }
 
 .introduction-text-a {
-  color: #000;
+  color: var(--font-color-h1);
 
 }
 
@@ -188,15 +184,12 @@ h2 {
 .insuranceList h3 {
   text-align: center;
   font-weight: 700;
-  /* display: inline-block; */
-  /* padding: .2%;
-  margin-top: 6%; */
 }
 
 .insurance-primary {
   font-weight: 700;
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+
 }
 
 .insurance-text {
